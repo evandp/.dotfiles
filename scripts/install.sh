@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 if [[ -z $STOW_FOLDERS ]]; then
-    STOW_FOLDERS="nvim"
+    STOW_FOLDERS="nvim,zsh"
 fi
 
 if [[ -z $DOTFILES ]]; then
